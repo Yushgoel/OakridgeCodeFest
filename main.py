@@ -14,11 +14,11 @@ app = flask.Flask(__name__)
 @app.route('/')
 def root():
 	lat = request.args['lat']
-
+	lon = request.args['longi']
 	message = client.messages.create(
 	to="whatsapp:+917760329001",
 	from_="whatsapp:+14155238886",
-	body=lat
+	body="Cyclist has fallen. Location is " + lat + ", " + lon
 	)
 	return ""
 
