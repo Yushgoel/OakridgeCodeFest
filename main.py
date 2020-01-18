@@ -4,8 +4,8 @@ import os
 import logging
 from twilio.rest import Client
 
-account_sid = "AC287c16e55134eae71daa6b288e6dde51"
-auth_token = "f969a927d0a6704444a4a46979b66e04"
+account_sid = "XXXXXX"
+auth_token = "XXxXXX"
 
 client = Client(account_sid, auth_token)
 
