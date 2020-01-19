@@ -18,7 +18,7 @@ def root():
 	message = client.messages.create(
 	to="whatsapp:+917760329001",
 	from_="whatsapp:+14155238886",
-	body="Cyclist has fallen. Location is " + lat + ", " + lon
+	body="Cyclist has fallen. Location is " + lat + ", " + lon + ". Link to location: http://google.com/maps/place/12%C2%B053'16.3%22N+77%C2%B045'06.6%22E/@12.8878072,77.7515759,18.49z/data=!4m5!3m4!1s0x0:0x0!8m2!3d12.887848!4d77.751824"
 	)
 	return ""
 
